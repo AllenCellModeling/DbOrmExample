@@ -13,7 +13,7 @@ ics = IrenaClassification.all()
 print(len(ics))
 
 for ic in ics:
-    print(ic.mitosis_label)
+    print(ic)
     ic.delete()
 
 
