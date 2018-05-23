@@ -4,6 +4,10 @@ This is a simple script to load an example data file (csv) and write it into a D
 The intent is to use this to catch bad fields and allow the developer to put in smart validations for the models to 
 make sure the data being loaded is valid data. 
 
+## Orator Documentation
+
+is available at [orator-orm.com](https://orator-orm.com/docs/0.9/)
+
 ## The database
 
 Configuration for the database is done in orator.yml. The example in this repo uses SQLite3 to create a local 
