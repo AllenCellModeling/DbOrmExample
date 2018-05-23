@@ -1,0 +1,13 @@
+databases:
+    default: local_db
+    remote_db:
+        driver: {{ database.type }}
+        host: {{ database.host }}
+        database: {{ database.name }}
+        user: {{ database.user }}
+        password: {{ database.password }}
+    local_db:
+        driver: sqlite
+        database: db_file.db
+
+

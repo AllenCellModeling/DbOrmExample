@@ -1,4 +1,6 @@
 databases:
-  sqlite:
-    driver: sqlite
-    database: js_mitois.db
+    default: local_db
+    local_db:
+        driver: sqlite
+        database: db_file.db
+
