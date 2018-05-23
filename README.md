@@ -8,6 +8,21 @@ make sure the data being loaded is valid data.
 
 is available at [orator-orm.com](https://orator-orm.com/docs/0.9/)
 
+## Installation 
+
+to install orator 
+```commandline
+> pip install orator
+```
+
+then install db backends that you intend to use
+```commandline
+> pip install psycopg2
+> pip install PyMySQL
+```
+
+no need to install sqlite it comes pre-installed with python
+
 ## The database
 
 Configuration for the database is done in orator.yml. The example in this repo uses SQLite3 to create a local 
