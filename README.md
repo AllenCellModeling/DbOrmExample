@@ -18,7 +18,7 @@ to install orator
 then install db backends that you intend to use
 ```commandline
 > pip install psycopg2
-> pip install PyMySQL
+> pip install sqlalchemy
 ```
 
 no need to install sqlite it comes pre-installed with python
