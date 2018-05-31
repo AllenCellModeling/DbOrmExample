@@ -5,6 +5,8 @@ __pycache__/
 # ignore password based files
 orator.yml
 private.json
+sqlalchemy.yml
+input_data/*
 
 # User-specific stuff
 .idea/**/workspace.xml
