@@ -31,6 +31,7 @@ for i in range(len(df)):
     ic.png_file_size = int(x['png_file_size'])
     ic.target_numeric = int(x['targetNumeric'])
     try:
+        #ic.creating(lambda x: x.is_valid())
         ic.save()
     except Exception as e:
         b_list.append(i)

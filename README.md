@@ -44,11 +44,16 @@ To run the example script to populate the table
 > python Csv2Db.py 
 ```
 
-To print the class objects representing the rows in the database 
-and then delete them run 
+The 'TblGetter.py' file uses orator to pull records from the populated 
+database. It also gives simple a simple example of how to query the database
+for a subset of data matching a criteria. 
 ```
 > python TblGetter.py
 ```
+
+'PanadsGetter.py' is an example of using pandas to pull all the data in the 
+table into a pandas dataframe. Since the data was checked when the database was 
+populated you don't need as much sanity checking in your application.
 
 ## File Descriptions
 

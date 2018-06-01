@@ -12,8 +12,16 @@ ics = IrenaClassification.all()
 
 print(len(ics))
 
-for ic in ics:
-    print(ic)
-    ic.delete()
+#for ic in ics:
+    #print(ic)
+    #ic.delete()
+
+mlabels = ics.pluck('mitosis_label').unique()
+for label in mlabels:
+    print(label)
 
 
+mitoFive = IrenaClassification.where([['mitosis_label', '=', 5],['cell_id', '<', 'AICS-13_9']]).get()
+
+for m in mitoFive:
+    print(m.cell_id)
